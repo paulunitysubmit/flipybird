@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour
 
         ani.SetBool("RUnning", true);
         ani.Play("put the gun to the back");
+
     }
 
     public void IncreaseScore()
