@@ -132,6 +132,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe
       objectReference: {fileID: 0}
+    - target: {fileID: 4229506218047745473, guid: 23b2dd24024396243b86a2699de29c4f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.83396226
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229506218047745473, guid: 23b2dd24024396243b86a2699de29c4f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3367087
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229506218047745473, guid: 23b2dd24024396243b86a2699de29c4f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.18724804
+      objectReference: {fileID: 0}
     - target: {fileID: 7546989726808284927, guid: 23b2dd24024396243b86a2699de29c4f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -193,6 +205,18 @@ PrefabInstance:
     - target: {fileID: 685069784365100927, guid: 23b2dd24024396243b86a2699de29c4f, type: 3}
       propertyPath: m_Name
       value: Square
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229506218047745473, guid: 23b2dd24024396243b86a2699de29c4f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.83396226
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229506218047745473, guid: 23b2dd24024396243b86a2699de29c4f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3367087
+      objectReference: {fileID: 0}
+    - target: {fileID: 4229506218047745473, guid: 23b2dd24024396243b86a2699de29c4f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.18724804
       objectReference: {fileID: 0}
     - target: {fileID: 7546989726808284927, guid: 23b2dd24024396243b86a2699de29c4f, type: 3}
       propertyPath: m_LocalPosition.x

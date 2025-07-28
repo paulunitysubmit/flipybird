@@ -4,6 +4,7 @@ public class BirdController : MonoBehaviour
 {
     public float jumpForce = 5f;
     private Rigidbody2D rb;
+    public GameManager gm;
 
     void Start()
     {
@@ -12,7 +13,7 @@ public class BirdController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Jump on left mouse click
+        if (Input.GetMouseButtonDown(0) && !gm.isGameOver) // Jump on left mouse click
         {
             rb.velocity = Vector2.zero; // Reset velocity to ensure consistent jump height
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
